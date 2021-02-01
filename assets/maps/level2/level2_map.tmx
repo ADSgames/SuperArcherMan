@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="75" height="75" tilewidth="16" tileheight="16" infinite="0" backgroundcolor="#76c4fc" nextlayerid="6" nextobjectid="19">
+ <tileset firstgid="1" name="tilemapflat" tilewidth="16" tileheight="16" tilecount="61" columns="61">
+  <image source="level2_tiles.png" width="976" height="16"/>
+ </tileset>
+ <layer id="1" name="back" width="75" height="75">
+  <data encoding="base64" compression="zlib">
+   eJzt2ltOwzAQheFBIkhsoM0Swv43CA+1GAbfLzmOc0b6HyolJP5k1Dawi8jOGGOMMcYYY4wxxhhjjDHGGGM36ZkZ+j5nKDXHK/R9ztIWiFb5Vhut/iTyu4fk5SLmNa3+Wx2R0Pc5Q7Qqi1a0OtPqi1bZVtxXcSu9l1awKvmuljpWZO19Zcda6Nd6Qj9rZauY3WZe55x7N6vQd19a5VmVnHsXqz1gJY1Wq36+4u9gnZVef8rpblbv4t9XHwXnaSvf51H0Gmvy/d0gZhX7e0PIapV9Ffqc2WNWsnI+sTWNCr320lBOV7PqtadCzxFSx6PXX+sUW2+pxWr7Sjv1rMQVtUd8z05ijbKaeV/p93n77MTNQ+UG7XTIef//YfeHtnpkhraSk7zc6OuWWqHd3Iz20k49rBB+ekZ72Wv3tmrxy3k/tDPSS8x1z7Dqufd87zmjvOwgrGrM3J7zWY3y8j03QTjVmoWsWr3sZ8m3nz49VjKBV65ZzEoarHIHbYS2eiauM2MoK7mQUYmXPb7Vyu4p9Pp7evmO15P7HMB+30OveYRX7JyacddCr3eEF/qeZo5WtBrthb6Pq0QrWrE5+gb3ZhPI
+  </data>
+ </layer>
+ <layer id="2" name="mid" width="75" height="75">
+  <data encoding="base64" compression="zlib">
+   eJzt2DEOAjEMAMH8Ax3/fyaioL49JAgkM70le6soYwAAAAAAAAAAzHGbvcCPO2Yv8Ee06rTqtOq06rTqjqFXpVOnVbdrq3fu1uqzMyvQqtOqe9599V9l51bfmFmBVp1WAMCuvGk6rTqtOq2a+9DqCq06rTqtzr3+d7UCAACAtTwAWKMEhA==
+  </data>
+ </layer>
+ <layer id="3" name="collide" width="75" height="75">
+  <data encoding="base64" compression="zlib">
+   eJzt2f9OwjAUhuFeCSbqH0QUUeH+b01OWJN69qOHWNad9n2SE8hgW/vRja0LAQAAAAAAAAAAAACAsY9rfc3UZ8V2efNduwEb87zwGVn9dRpe5Vg8q7rUatRGxawYQ3lkZbcbXskqj3FlR1Z2ZGVHVnatZ5VeL+bu2fQ1ptZ6VqmXcMvrOFRI3ktOr5n1e8pKnGaWW/pPVjdPd6zbS1a7meWMqzGOQTvp79S5Pdd/OffHeZdesiqBrOxazGo/UT9hPKcZ5zWnvh+r9TnQfe0GOBHHA/LIyYacbMjJrtespN9zzy/fr/WW1CH0nZPweA+21m+m/+u9ZrVGXnofnrN6dF56+x6f9er7o0fvK/I4rsRaeR2T8jxntOb4Slnmw7eoRl4ex5WYmt8psS25nlyaX/KodFYtK5VV6zlFZHWf/2R1KNwWD2JW+r5/qXrMCQAAQPsFqkMmUw==
+  </data>
+ </layer>
+ <layer id="4" name="front" width="75" height="75">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T20Hb6AAAAAAAAAAAAAAAAAAAAAAAAAAAACAxwBX5AAB
+  </data>
+ </layer>
+ <objectgroup id="5" name="objects">
+  <object id="1" type="player" x="128" y="1038" width="64" height="34"/>
+  <object id="2" type="enemy" x="465.455" y="961.545" width="14.1818" height="23.0909"/>
+  <object id="3" type="enemy" x="465.091" y="819.182" width="14.1818" height="23.0909"/>
+  <object id="4" type="enemy" x="891.273" y="583.182" width="14.1818" height="23.0909"/>
+  <object id="5" type="enemy" x="826.545" y="658.091" width="14.1818" height="23.0909"/>
+  <object id="6" type="enemy" x="1075.09" y="422.818" width="14.1818" height="23.0909"/>
+  <object id="7" type="crown" x="1136" y="416" width="16" height="32"/>
+  <object id="8" type="door" x="1024" y="704" width="16" height="32"/>
+  <object id="9" type="door" x="896" y="704" width="16" height="32"/>
+  <object id="10" type="door" x="800" y="704" width="16" height="32"/>
+  <object id="11" type="door" x="432" y="960" width="16" height="32"/>
+  <object id="15" type="ladder" x="496" y="848" width="16" height="144"/>
+  <object id="17" type="ladder" x="848" y="608" width="16" height="128"/>
+  <object id="18" type="ladder" x="1056" y="448" width="16" height="288"/>
+ </objectgroup>
+</map>

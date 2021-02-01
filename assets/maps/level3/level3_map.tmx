@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="100" height="100" tilewidth="16" tileheight="16" infinite="0" backgroundcolor="#080038" nextlayerid="6" nextobjectid="52">
+ <tileset firstgid="1" name="tilemapflat" tilewidth="16" tileheight="16" tilecount="71" columns="71">
+  <image source="level3_tiles.png" width="1136" height="16"/>
+ </tileset>
+ <layer id="1" name="back" width="100" height="100" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJztmEtOw0AUBAchhNiwCj4C9z8ikcDKxCSx5/nTnTdVUm2jHpfGSlIKAAAAAADAMQx/ggdDoYkTww1Bx60eNNFxrwdNNDzqQZPjoYcXDj3eKnuHHl7M9YjYCj0u7NGjtctL+W3xWmiyZ48lXcYWS+7I99nT2a+2Iz4VR/R41OS9XDp8lP89TpX1553MPeq57tFlejfUG3t3bKHegfRwlB5e0sNLenhJDy/p4SU9vKSHl/Xvc/UWpMdat4Ye65z+P76l6rM9o/Twsqx43nOoz/aMrumh3p5RenhJDy/p4SU9vKSHl9EexWB7Rud61NBD34P7QY/evfd+mkO9O6tji88G6UGPXoy+r0b4fbJfj6MtBud3U9lDfXZHI6y5D/TYpyH3w0d6eEkPL+nhJT28pIeX9PByqx7F4CwZ3KIFPeiRVXp4uWWPmoFG0h58D9vGImgy946bon5GzrbCnfJyiy7qM2R0TRf19qzW0MTPli7qrb04bVKz5LsYIiIi4hKLwQa87kETH+nhJT28pIeXNeotSA83p6j39O4t1Jt69hHqbT3agnprD0ZQb85sBPXmzEZQb85sBPXmzEZQb85sBPXmzEZQb85sBPXmzEZQb85sBPXmzP4A7t5yRA==
+  </data>
+ </layer>
+ <layer id="2" name="mid" width="100" height="100" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJzt2UEOwVAUQNFuxNge2P++xEBCo0ra6iXnzPQbyLt5P8IwAAAAAAAAAADwzGHvD8ADPVr0aNGjRY8WPVr0aNGjRY8WPVr0aNGjRY8WPVr0WN+rmZr39o6j1+OZX8/PE2dsz3606LGf0/DefTV1xvbsR4seLXq06NGiR4se+zHfFj1a9GjRo0WPFj3+w1THT5+zjtt8534b9j/Wd8ztwVwn1uW+atGjZWmP8X3GMvajRY8WPVruv9eenjyfej/bsB8terTo0aJHix4AAAAAAAAAAAAAAAD8sgumMwwb
+  </data>
+ </layer>
+ <layer id="3" name="collide" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt3O1KwzAUxvF+FsUXtOBX365CJ5ve/zXZYINdSOuSndM8uv8PDtNEXcnTJG0Hdh0AAADwf/VjQUffkYsiMtHDXNFEHlriHLlrfSDYwzzR4pHH9aSek76HpB/7POfH41DnSdvZUE+O7/nXhTxehro9sEr3m4vk+8tjDhZZJXMq5BHXpfBKHj4OzYT5sZ6a+0ry8FeSC3msp8/UVfdzjRWurW7aHBomduPrZ9OjQEQeWshDC3loIQ8t5KGFPLSQhxby0EIeWsjjOO9DvRnWZvy75FHHa9zIow55aAnjlq4527Evt5Yt9eXWLZQpPY/Zr32Rh5bS9Yo8fDE/tJCHFtYrLWFcP5KKY73L9JGHr9z8iPcOr5k+8vBVO67k4YM8tMRxLX3Oy/MQH9O9u+b3YIs8tMRxzV1LrVHxXgffWp/nrd9fTevxaP3+amrXqaVnKrn2uZ9nvbJhdV4zP2yQh5al67Jc+3amnTxsLN3X59o3M+3kYYP1Sgt5aGH/0ML+oYX1Sgt5aCndP+Y+kycPG5bzI/e/UNLCsjXPa7L5Xat15pC5dIq5WX2eGPYVj7E8xUw8WYwnediymC9kYu+YXMjDT00u5LGOPvl67nqAPNYRxvl+rHTMl/oAAAAAAAAAAAAAAAAAAECZLzKKXhA=
+  </data>
+ </layer>
+ <layer id="4" name="front" width="100" height="100" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJzt1bENgDAMRUFPFbIA7D8SaVOkIUiW4U5y5+J3LwIAAAAAAAAAAAAAAAAAAAAAAAAAAOCZ9vIfAN+3aoJW5DjG9ewRABv0owa9Aao5swcwubIHAAAAAAAAAAAAAAAA8Fs39Y4CeA==
+  </data>
+ </layer>
+ <objectgroup id="5" name="objects">
+  <object id="1" type="player" x="160" y="222" width="64" height="34"/>
+  <object id="3" type="enemy" x="560.5" y="239.375" width="14" height="20.75"/>
+  <object id="4" type="enemy" x="500.25" y="198.375" width="14" height="20.75"/>
+  <object id="5" type="enemy" x="331.5" y="552.125" width="14" height="20.75"/>
+  <object id="6" type="enemy" x="264.75" y="598.375" width="14" height="20.75"/>
+  <object id="7" type="enemy" x="354.75" y="644.125" width="14" height="20.75"/>
+  <object id="8" type="enemy" x="391.5" y="728.375" width="14" height="20.75"/>
+  <object id="9" type="enemy" x="513.75" y="824.375" width="14" height="20.75"/>
+  <object id="10" type="enemy" x="693.5" y="822.875" width="14" height="20.75"/>
+  <object id="11" type="enemy" x="693" y="868.375" width="14" height="20.75"/>
+  <object id="12" type="enemy" x="499.5" y="996.625" width="14" height="20.75"/>
+  <object id="13" type="enemy" x="689.25" y="928.375" width="14" height="20.75"/>
+  <object id="14" type="enemy" x="587.75" y="934.875" width="14" height="20.75"/>
+  <object id="15" type="enemy" x="679.25" y="995.125" width="14" height="20.75"/>
+  <object id="16" type="enemy" x="926.25" y="1125.12" width="14" height="20.75"/>
+  <object id="17" type="crown" x="1024" y="1136" width="16" height="32"/>
+  <object id="18" type="door" x="657" y="992" width="16" height="32"/>
+  <object id="19" type="door" x="623" y="992" width="16" height="32"/>
+  <object id="20" type="door" x="657" y="928" width="16" height="32"/>
+  <object id="21" type="door" x="624" y="928" width="16" height="32"/>
+  <object id="22" type="door" x="657" y="864" width="16" height="32"/>
+  <object id="23" type="door" x="623.125" y="864" width="16" height="32"/>
+  <object id="24" type="door" x="657" y="816" width="16" height="32"/>
+  <object id="25" type="door" x="623" y="816" width="16" height="32"/>
+  <object id="26" type="door" x="560" y="992" width="16" height="32"/>
+  <object id="27" type="door" x="527" y="992" width="16" height="32"/>
+  <object id="28" type="door" x="528" y="928" width="16" height="32"/>
+  <object id="29" type="door" x="561" y="928" width="16" height="32"/>
+  <object id="30" type="door" x="527.25" y="863.875" width="16" height="32"/>
+  <object id="31" type="door" x="561.25" y="863.875" width="16" height="32"/>
+  <object id="32" type="door" x="465" y="928" width="16" height="32"/>
+  <object id="33" type="door" x="465" y="816" width="16" height="32"/>
+  <object id="34" type="door" x="465" y="864" width="16" height="32"/>
+  <object id="35" type="door" x="465" y="992" width="16" height="32"/>
+  <object id="36" type="door" x="320" y="640" width="16" height="32"/>
+  <object id="37" type="door" x="287" y="640" width="16" height="32"/>
+  <object id="40" type="door" x="287" y="592" width="16" height="32"/>
+  <object id="41" type="door" x="321" y="592" width="16" height="32"/>
+  <object id="43" type="door" x="399" y="544" width="16" height="32"/>
+  <object id="44" type="door" x="528" y="544" width="16" height="32"/>
+  <object id="45" type="ladder" x="640" y="848" width="17" height="240"/>
+  <object id="46" type="ladder" x="543" y="848" width="17" height="240"/>
+  <object id="47" type="ladder" x="448" y="848" width="17" height="240"/>
+  <object id="48" type="ladder" x="544" y="336.333" width="16" height="240"/>
+  <object id="49" type="ladder" x="224" y="752" width="16" height="96"/>
+  <object id="50" type="ladder" x="304" y="576" width="16" height="176"/>
+  <object id="51" type="ladder" x="416" y="576" width="16" height="176"/>
+ </objectgroup>
+</map>
